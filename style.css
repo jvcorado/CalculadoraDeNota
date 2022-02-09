@@ -19,6 +19,7 @@ body{
     height: 100vh;
     background-color: rgb(0, 0, 0);
     color: white;
+    padding: 20px;
     
 }
 input, button, p {
@@ -38,4 +39,5 @@ p{
 button{
     cursor: pointer;
     background-color: #777;
+    color: black;
 }
