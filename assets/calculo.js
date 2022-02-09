@@ -9,9 +9,11 @@ function calcMedia(nota1, nota2, notaCurso, notaProjeto, notaAtividade){
     calculoMedia =  (nota1 +  nota2 + notaCurso + notaProjeto + notaAtividade)
     if(calculoMedia >=101 ){
         document.getElementById("media").innerHTML = `Nota inválida`
+        document.getElementById("situacao").innerHTML = `Situação: inválida`
     }
     else if(calculoMedia <=-1){
         document.getElementById("media").innerHTML = `Nota inválida`
+        document.getElementById("situacao").innerHTML = `Situação: inválida`
     }
     else if(calculoMedia >=70){
         document.getElementById("media").innerHTML = `Média: ${calculoMedia}`
